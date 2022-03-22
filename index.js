@@ -65,3 +65,36 @@ function isValidPassword(password, username) {
 // if (pass.includes(user)) {
 //     cl('nononono');
 // }
+
+function pick(something) {
+    let randNumber = Math.floor(Math.random() * something.length);
+    return something[randNumber];
+}
+
+function getCard() {
+    const values = [
+        'A',
+        '2',
+        '3',
+        '4',
+        '5',
+        '6',
+        '7',
+        '8',
+        '9',
+        '10',
+        'K',
+        'Q',
+        'J',
+    ];
+    const suits = ['Spades', 'Hearts', 'Diamond', 'Clubs'];
+    return {
+        Value: pick(values),
+        Suit: pick(suits),
+    };
+}
+
+// getCard();
+
+// let namess = 'olaoluwa';
+// cl(namess.toUpperCase().split('')[3]);
