@@ -1,6 +1,6 @@
 let cl = console.log.bind(console);
 
-cl('jova');
+// cl('jova');
 
 function ola() {
     cl('Olaoluwa is the name of a King');
@@ -17,4 +17,4 @@ function repeatNTimes(f, num) {
         f();
     }
 }
-repeatNTimes(ola, 4);
+// repeatNTimes(ola, 4);

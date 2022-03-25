@@ -6,8 +6,14 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 html {
     font-size: 10px;
+=======
+#header {
+    width: 100%;
+    background: coral;
+>>>>>>> ba66d6ce958faffd51aca125321ef8b6db528a0e
 }
 
 .brand h1 {
@@ -24,7 +30,16 @@ html {
     min-height: 100vh;
     width: 100%;
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
+=======
+    list-style: none;
+    padding: 20px 40px;
+}
+
+#header .list-item {
+    display: flex;
+>>>>>>> ba66d6ce958faffd51aca125321ef8b6db528a0e
     align-items: center;
 }
 
