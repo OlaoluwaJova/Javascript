@@ -83,3 +83,17 @@ html {
     /* border-bottom: rgb(27, 189, 27) 0.2rem solid;
     border-top: rgb(27, 189, 27) 0.2rem solid; */
 }
+
+#header button {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 0.7rem 1.4rem;
+    font-size: 1.2rem;
+    transition: 0.4s ease-in-out all;
+}
+
+#header button:hover {
+    color: red;
+    transform: scale(1.1);
+}
